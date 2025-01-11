@@ -58,7 +58,7 @@ require("lazy").setup(load_plugins())
 require("autocommands")
 
 
-
+-- this is a test to see if my dotfiles change
 
 -- ~/.config/nvim/init.lua
 
