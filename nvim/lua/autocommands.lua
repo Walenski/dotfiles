@@ -14,3 +14,6 @@ vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, { -- Use a table for mu
   command = "set filetype=tex",
 })
 
+
+vim.keymap.set("n", "<leader>s", ":SendToAnki<CR>", { noremap = true, silent = true })
+
